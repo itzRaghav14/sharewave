@@ -2,7 +2,7 @@ import React from 'react'
 
 const Leftbar = () => {
   return (
-    <div>
+    <div className='flex-1 hidden md:block'>
       Leftbar
     </div>
   )

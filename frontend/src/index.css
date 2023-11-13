@@ -17,5 +17,5 @@
 }
 
 body * {
-  @apply transition-colors ease-in duration-500;
+  @apply transition-colors ease-in duration-300;
 }

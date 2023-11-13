@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="h-screen w-full bg-complementary-400 dark:bg-complementary-700 flex justify-center items-center p-4">
-      <div className="max-w-xs md:max-w-md bg-white dark:bg-complementary-400 p-4 md:p-8 rounded-lg shadow-md">
+    <div className="h-screen w-full bg-complementary-600 dark:bg-complementary-800 flex justify-center items-center p-4">
+      <div className="max-w-xs md:max-w-md bg-white dark:bg-complementary-300 p-4 md:p-8 rounded-lg shadow-md">
         {/* Heading */}
         <h1 className="text-3xl text-center font-bold text-primary-600 dark:text-primary-600">
           Sharewave

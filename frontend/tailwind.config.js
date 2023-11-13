@@ -8,8 +8,11 @@ module.exports = {
       colors: {
         primary: colors.purple,
         complementary: colors.gray
+      },
+      flex: {
+        '2': '2 2 0%'
       }
-    },
+    }
   },
   plugins: [],
 }

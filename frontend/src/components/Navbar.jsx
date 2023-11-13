@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='bg-white dark:bg-complementary-800'>
       Navbar
     </div>
   )

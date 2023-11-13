@@ -6,7 +6,7 @@ import Rightbar from '../components/Rightbar'
 
 const Home = () => {
   return (
-    <div>
+    <div className='min-h-screen bg-complementary-200 dark:bg-black dark:text-white'>
       <Navbar />
       <div className='flex'>
         <Leftbar />
