@@ -1,2 +1,2 @@
-# Sharewave
+# Sharewave - A Social Pulse
 
