@@ -15,8 +15,7 @@ app.use(helmet());
 app.use(morgan("common"));
 
 // routes
-app.use ('/api/users', require('./routes/users'));
-app.use ('/api/auth', require('./routes/auth'));
+app.use ('/', require('./routes'));
 
 app.listen(PORT, () => {
   console.log('Server is running on the port:', PORT);

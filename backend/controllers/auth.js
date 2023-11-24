@@ -5,15 +5,10 @@ module.exports.register = async (req, res) => {
   try {
     // hashing the password
     const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(req.body.password, salt);
+    req.body.password = await bcrypt.hash(req.body.password, salt);
 
     // creating a user
-    const user = await User.create({
-      username: req.body.username,
-      email: req.body.email,
-      password: hashedPassword,
-      name: req.body.name
-    });
+    const user = await User.create(req.body);
     res.status(200).json({ message: 'Succuessfully created an account', data: user });
   }
   catch (err) {
