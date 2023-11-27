@@ -7,7 +7,7 @@ const Topbar = () => {
   const userImg = "https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg";
 
   return (
-    <div className='w-full h-12 bg-primary-500 flex items-center sticky top-0'>
+    <div className='w-full h-1/12 bg-primary-500 flex items-center'>
       <div className='flex-3'>
         <span className='text-2xl ml-5 font-bold text-white cursor-pointer'>Sharewave</span>
       </div>
