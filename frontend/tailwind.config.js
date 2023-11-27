@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.blue,
-        secondary: colors.gray
+        secondary: colors.green
       },
       flex: {
         '2': '2 2 0%',
@@ -24,7 +24,11 @@ module.exports = {
       },
       height: {
         '1/12': '8.33%',
-        '11/12': '91.67%'
+        '11/12': '91.67%',
+        '7/10': '70%'
+      },
+      width: {
+        '7/10': '70%'
       }
     },
   },

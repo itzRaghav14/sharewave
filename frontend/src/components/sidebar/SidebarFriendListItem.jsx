@@ -7,7 +7,7 @@ const SidebarFriendListItem = () => {
   const friendName = "Friend"
 
   return (
-    <li className="flex items-center px-6 py-3 space-x-5 hover:bg-secondary-200 cursor-pointer">
+    <li className="flex items-center px-6 py-3 space-x-5 hover:bg-gray-200 cursor-pointer">
       <img src={imgUrl} alt="friend-pfp" className="h-6 w-6 rounded-full" />
       <span>{friendName}</span>
     </li>
