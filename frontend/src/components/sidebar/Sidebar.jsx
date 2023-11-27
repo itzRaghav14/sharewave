@@ -1,6 +1,5 @@
 import React from 'react'
 import SidebarList from './SidebarList';
-import SidebarFriendList from './SidebarFriendList';
 
 const Sidebar = () => {
 
